@@ -1,0 +1,292 @@
+
+nodes:
+
+  top1: [ 4.06 , 109.2 , 0.55 ]
+  bottom1: [-4.08 , 103.68 , -8.5]
+
+  top2: [-3.61 , 90.74 ,-2.06 ]
+  bottom2: [ 8.29, 96.3 , 4.53 ]
+
+  top3: [ -9.35 , 103.65 , 1.23 ]
+  bottom3: [ 1.76 , 109.21 , -3.73 ]
+
+  top4: [ -3.04, 109.3 , -2.78 ]
+  bottom4: [ -1.73 , 103.63 , 9.25 ]
+
+  top5: [ 5.74 , 92.49 , 3.68 ]
+  bottom5: [ 6.4 , 99.48 , -7.69 ]
+
+  top6: [ 8.29, 103.68, 4.5]
+  bottom6: [ 3.59 , 109.24 , 1.91 ]
+
+  top7: [ 0.84 , 109.8 , 4.05 ]
+  bottom7: [ 6.81 , 103.67 , -6.47 ]
+
+  top8: [ 3.61 , 102.34 , -9.15 ]
+  bottom8: [ -8.29 , 97.64 , -5.28 ]
+
+  top9: [ 9.38 , 100.55 , -3.92]
+  bottom9: [-1.74 , 107.44 , -6.68]
+
+  top10: [ 3.03 , 106.65 , -7.04 ]
+  bottom10: [1.73 , 93.35 , -7.42 ]
+
+  top11: [ -6.91 , 92.56 , 0.42 ]
+  bottom11: [ -0.75 , 99.48 , 10.06 ]
+
+  top12: [ 6.85 , 96.33 , 6.48 ]
+  bottom12: [0.83 , 90.71, -4.05 ]
+
+  top13: [9.83 ,102.41 , 0.57 ]
+  bottom13: [2.53 ,97.62 ,-9.56 ]
+
+  top14: [ 6.56 , 100.5 , 7.68 ]
+  bottom14: [5.76  ,107.43  , -3.73 ]
+
+  top15: [ 7.61 , 93.35  , 0.65 ]
+  bottom15: [ 7.68 , 106.65, 0.73 ]
+
+  top16: [9.85 , 97.61 ,-0.56 ]
+  bottom16: [ 2.52 , 102.37, 9.56 ]
+
+  top17: [ -5.28, 100.53  , 8.64 ]
+  bottom17: [ 5.33 , 107.43 , 4.35 ]
+
+  top18: [ 1.67 , 106.65 , 7.48 ]
+  bottom18: [ 3.01 , 93.35 , 7.02 ]
+
+  top19: [ 3.56 , 97.57 , 9.2 ]
+  bottom19: [ -8.3 , 102.36  , 5.32 ]
+
+  top20: [ -9.87 , 97.61, 0.59 ]
+  bottom20: [ -2.47 , 107.47 , 6.36 ]
+
+  top21: [ -5.79 ,93.35 , 5.04 ]
+  bottom21: [ 6.62 , 106.64 , 3.9 ]
+
+  top22: [ 7.64 , 97.72 , 6.28 ]
+  bottom22: [ -7.6 ,102.35 , -6.26 ]
+
+  top23: [ -0.81 , 100.48 , -10.06 ]
+  bottom23: [ -6.87 , 107.45 , -0.4 ]
+
+  top24: [ -5.8, 106.05 , -5.08 ]
+  bottom24: [ -6.57 , 106.65 , -3.97 ]
+
+  top25: [ 5.34 , 92.59 , -4.36 ]
+  bottom25: [ -5.3 , 99.429 ,-8.66 ]
+
+  top26: [ -4.09 , 96.27 , 8.52 ]
+  bottom26: [ 4.09 , 90.73 , -4.9 ]
+
+  top27: [ -1.75 , 92.56, 6.67]
+  bottom27: [ 9.38 , 99.43 , 3.88 ]
+
+  top28: [ -1.71 , 96.25  , -9.31 ]
+  bottom28: [ -3.03 ,90.7  , 2.79 ]
+
+  top29: [ 1.72 , 90.71 , 3.72 ]
+  bottom29: [ -9.35 , 96.31 , -1.26 ]
+
+  top30: [ -9.84 , 99.45 , 2.38 ]
+  bottom30: [ -2.47 , 93.63 , -7.47 ]
+
+  paytop: [ 0, 101, 0]
+  paybottom: [ 0, 99, 0]
+
+
+
+pair_groups:
+ rod:
+    - [bottom1,top1]
+    - [bottom2,top2]
+    - [bottom3,top3]
+    - [bottom4,top4]
+    - [bottom5,top5]
+    - [bottom6,top6]
+    - [bottom7,top7]
+    - [bottom8,top8]
+    - [bottom9,top9]
+    - [bottom10,top10]
+    - [bottom11,top11]
+    - [bottom12,top12]
+    - [bottom13,top13]
+    - [bottom14,top14]
+    - [bottom15,top15]
+    - [bottom16,top16]
+    - [bottom17,top17]
+    - [bottom18,top18]
+    - [bottom19,top19]
+    - [bottom20,top20]
+    - [bottom21,top21]
+    - [bottom22,top22]
+    - [bottom23,top23]
+    - [bottom24,top24]
+    - [bottom25,top25]
+    - [bottom26,top26]
+    - [bottom27,top27]
+    - [bottom28,top28]
+    - [bottom29,top29]
+    - [bottom30,top30]
+
+ string:
+    - [top1,bottom3]
+    - [top1,top7]
+    - [top1,bottom14]
+   
+    - [bottom1,bottom9]
+    - [bottom1,top23]
+    - [bottom1,top24]
+   
+    - [top2,bottom12]
+    - [top2,bottom28]
+    - [top2,bottom30]
+    
+    - [bottom2,top5]
+    - [bottom2,top15]
+    - [bottom2,top25]
+    
+    - [top3,top20]
+    - [top3,bottom21]
+    - [top3,bottom23]
+   
+    - [bottom3,top4]
+    - [bottom3,bottom9]
+   
+    - [top4,bottom6]
+    - [top4,bottom23]
+   
+    - [bottom4,bottom20]
+    - [bottom4,top17 ]
+    - [bottom4,top18]
+   
+    - [top5,top9]
+    - [top5,bottom13]
+   
+    - [bottom5,top12]
+    - [bottom5,top15]
+    - [bottom5,bottom26]
+   
+    - [top6,top14]
+    - [top6,bottom15]
+    - [top6,bottom17]
+
+    - [bottom6,top7]
+    - [bottom6,bottom20]
+   
+    - [top7,bottom17]
+
+    - [bottom7,top9]
+    - [bottom7,top10]
+    - [bottom7,bottom14]
+
+    - [top8,top10]
+    - [top8,bottom13]
+    - [top8,top23]
+
+    - [bottom8,bottom22]
+    - [bottom8,bottom24]
+    - [bottom8,bottom25]
+
+    - [top9,top13]
+    
+    - [bottom9,top10]
+    
+    - [bottom10,bottom13]
+    - [bottom10,top25]
+    - [bottom10,top28]
+   
+    - [top11,bottom29 ]
+    - [top11,bottom28]
+    - [top11,top21] 
+
+    - [bottom11,top19]
+    - [bottom11,top26]
+    - [bottom11,top17]
+
+    - [top12,bottom18]
+    - [top12,bottom27] 
+
+    - [bottom12,top25]
+    - [bottom12,bottom26]
+
+    - [top13,bottom15]
+    - [top13,top16]
+
+    - [top14,bottom16]
+    - [top14,bottom27]
+
+    - [bottom14,bottom15]
+
+    - [top15,top16]
+
+    - [top16,bottom27]
+
+    - [bottom16,top18]
+    - [bottom16,top19]
+
+    - [top17,bottom19]
+
+    - [bottom17,top18]
+
+    - [bottom18,top19]
+    - [bottom18,top27]
+
+    - [bottom19,bottom21]
+    - [bottom19,top22]
+
+    - [top20,top30]
+    - [top20,bottom22]
+
+    - [bottom20,bottom21]
+
+    - [top21,top22]
+    - [top21,top26]
+
+    - [top22,top30]
+
+    - [bottom22,top24]
+    - [bottom22,top20]
+
+    - [top23,bottom25]
+
+    - [bottom23,top24]
+
+    - [bottom24,bottom29]
+    - [bottom24,bottom30]
+
+    - [bottom25,top28]
+
+    - [top26,top27]
+
+    - [bottom26,top29]
+
+    - [top27,top29]
+
+    - [top28,bottom30]
+
+    - [bottom28,top29]
+
+    - [bottom29,top30]
+
+
+
+builders:
+  rod:
+    class: tgRodInfo
+    parameters:
+      density: 2.7
+      radius: 0.25
+      friction: 0.99
+      roll_friction: 0.01
+      restitution: 0.0
+
+  string:
+    class: tgBasicActuatorInfo
+    parameters:
+      stiffness: 10000.0
+      damping: 2500.0
+      pretension: 1800.0
+      history: 0
+      max_tension: 100000
+      target_velocity: 10000
